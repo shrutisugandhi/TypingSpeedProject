@@ -13,7 +13,7 @@ const TestContainer = ({
     onInputChange,
     startAgain,
 }) => {
-    const timeRemaining = timeRemain;
+    //const timeRemaining = timeRemain;
 
     return (
         <div className="test_container">

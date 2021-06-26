@@ -1,10 +1,10 @@
 import React from "react";
-import './Footer.css'
-const Footer=()=>{
+import "./Footer.css";
+const Footer = () => {
     return (
         <div className="footer-container">
-            <a href="#" className="footer-link" target="_blank">Learn React</a>
+            <span className="footer-link">Learn React</span>
         </div>
-    )
-}
+    );
+};
 export default Footer;
