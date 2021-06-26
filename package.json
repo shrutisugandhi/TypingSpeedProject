@@ -2,7 +2,7 @@
     "name": "typingspeed",
     "version": "0.1.1",
     "private": true,
-    "homepage": "https://shrutisugandhi.github.io/TypingSpeed/",
+    "homepage": "https://shrutisugandhi.github.io/TypingSpeed",
     "dependencies": {
         "@testing-library/jest-dom": "^5.12.0",
         "@testing-library/react": "^11.2.7",
