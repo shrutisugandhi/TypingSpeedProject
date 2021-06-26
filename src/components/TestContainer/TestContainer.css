@@ -1,0 +1,17 @@
+.test_container{
+background-color: #fff;
+margin:0 auto;
+width:80%;
+min-height: 750px;
+display: flex;
+flex-direction: column;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.12);
+}
+
+.try_again_container{
+    flex-wrap: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:black;
+}

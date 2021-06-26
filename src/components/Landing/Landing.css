@@ -1,0 +1,48 @@
+.landing-container {
+    display: flex;
+    max-height: 90vh;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee2ee;
+    padding: 0 32px;
+    font-family: "bangers", cursive;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+
+.landing-header {
+    font-size: 92px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.typewriter-container {
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+
+.landing-logo {
+    width: 40vw;
+}
+
+
+/* For device less than 800px width */
+
+@media(max-width:800px) {
+    .landing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .landing-logo {
+        width: 80vw;
+    }
+    .landing-header {
+        margin-top: 32px;
+        text-align: center;
+    }
+    .typewriter-container {
+        text-align: center;
+    }
+}

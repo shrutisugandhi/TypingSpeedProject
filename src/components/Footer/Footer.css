@@ -1,0 +1,13 @@
+.footer-container{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    z-index: 99;
+
+}
+
+.footer-link{
+    font-size:26px;
+    color:#fff;
+
+}
