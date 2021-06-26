@@ -1,6 +1,6 @@
 {
-    "name": "typingspeedapp",
-    "version": "0.1.0",
+    "name": "typingspeed",
+    "version": "0.1.1",
     "private": true,
     "homepage": "https://shrutisugandhi.github.io/TypingSpeed/",
     "dependencies": {
@@ -19,7 +19,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -b master -d build"
     },
     "eslintConfig": {
         "extends": [
